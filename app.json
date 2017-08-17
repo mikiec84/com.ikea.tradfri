@@ -125,6 +125,62 @@
       ]
     },
     {
+      "id": "motion_sensor",
+      "name": {
+        "en": "Motion Sensor",
+        "nl": "Motion Sensor"
+      },
+      "class": "sensor",
+      "capabilities": [],
+      "zigbee": {
+        "manufacturerName": "IKEA of Sweden",
+        "productId": [
+          "TRADFRI motion sensor"
+        ],
+        "deviceId": 2128,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/motion_sensor/assets/icon_pair.svg",
+          "instruction": {
+            "en": "Open up the Rotating Dimmer to access the pair button. Press the pair button 4 times in 5 seconds",
+            "nl": "Maak de Draai Dimmer open om bij de pair knop te komen. Druk 4 keer op de pair knop binnen 5 seconden"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/motion_sensor/assets/images/large.png",
+        "small": "/drivers/motion_sensor/assets/images/small.png"
+      }
+    },
+    {
+      "id": "remote_control",
+      "name": {
+        "en": "Remote Control",
+        "nl": "Remote Control"
+      },
+      "class": "sensor",
+      "capabilities": [],
+      "zigbee": {
+        "manufacturerName": "IKEA of Sweden",
+        "productId": [
+          "TRADFRI remote control"
+        ],
+        "deviceId": 2064,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/remote_control/assets/icon_pair.svg",
+          "instruction": {
+            "en": "Open up the Rotating Dimmer to access the pair button. Press the pair button 4 times in 5 seconds",
+            "nl": "Maak de Draai Dimmer open om bij de pair knop te komen. Druk 4 keer op de pair knop binnen 5 seconden"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/remote_control/assets/images/large.png",
+        "small": "/drivers/remote_control/assets/images/small.png"
+      }
+    },
+    {
       "id": "dimmable_bulb",
       "name": {
         "en": "Dimmable Bulb",
