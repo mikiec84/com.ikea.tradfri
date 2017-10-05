@@ -2,20 +2,7 @@
 
 This app allows you to connect your IKEA Trådfri Devices to Homey
 
-#Supported Devices
+### Changelog
 
-* TRADFRI bulb E27 opal 980lm
-* TRADFRI bulb E27 opal 1000lm
-* TRADFRI bulb GU10 400lm
-* TRADFRI bulb E12 opal 400lm
-* TRADFRI bulb E14 opal 400lm
-* TRADFRI bulb E26 clear 950lm
-* TRADFRI bulb E26 opal 980lm
-* TRADFRI bulb E27 clear 950lm
-* TRADFRI bulb E26 1000lm
-* TRADFRI Rotating Dimmer
-
-#Unsupported Devices
-
-* TRADFRI 5 Button Remote
-* TRADFRI Motion Sensor
+* 1.2.1: updated icons.
+* 1.2.0: added RGB bulb, added GU10 spot (dimmable/tunable), added E14 bulb (dimmable/tunable).
